@@ -1,0 +1,15 @@
+# 微信小程序
+.DS_Store
+*.log
+project.config.json
+project.private.config.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*~
