@@ -93,10 +93,10 @@ Page({
     // 替换"吗？"为"!"
     reply = reply.replace(/吗？/g, '!')
     
-    // 交换"你"和"我"
-    reply = reply.replace(/你/g, 'TEMP')
+    // 交换"你"和"我" - 使用唯一标记避免冲突
+    reply = reply.replace(/你/g, '___TEMP_YOU___')
     reply = reply.replace(/我/g, '你')
-    reply = reply.replace(/TEMP/g, '我')
+    reply = reply.replace(/___TEMP_YOU___/g, '我')
     
     // 替换"谁"为"你"
     reply = reply.replace(/谁/g, '你')

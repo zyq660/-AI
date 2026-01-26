@@ -117,8 +117,11 @@ int main()
 ```
 
 #### 编译运行
+
+将上面的C++代码保存到 `main.cpp` 文件，然后编译运行：
+
 ```bash
-g++ -o mojing README.md
+g++ -o mojing main.cpp
 ./mojing
 ```
 
